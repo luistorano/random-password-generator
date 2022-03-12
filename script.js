@@ -43,8 +43,8 @@ function generatePassword () {
 
     if (!passwordLength) {
         alert("A value is required");
-    } else if (passwordLength < 4 || passwordLength > 130) {
-        passwordLength = prompt("You muste choose a value between 4 and 130");
+    } else if (passwordLength < 8 || passwordLength > 128) {
+        passwordLength = prompt("You muste choose a value between 8 and 128");
         console.log("Password Length " + passwordLength);
     } else {
         // Confirm Lower Case letters
