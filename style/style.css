@@ -1,0 +1,57 @@
+/* CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    text-align: center;
+    font-family: 'Klee One', cursive;
+}
+
+
+/* Header Styling */
+.main-header {
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.secondary-header {
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+
+/* Password card */
+textarea {
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    font-family: 'Klee One', cursive;
+    text-align: center;
+}
+
+
+/* Button styling */
+.btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Klee One', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* Image Styling */
+img {
+    height: 200px;
+    width: 300px;
+    padding-top: 5%;
+}
