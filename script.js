@@ -56,11 +56,11 @@ function generatePassword () {
         console.log("Upper case " + confirmUppercaseLetter);
 
         // Confirm Numbers
-        confirmNumberSelection = confirm ("Will this contain numbers?")
+        confirmNumberSelection = confirm ("Do you want numbers?")
         console.log ("Number " + confirmNumberSelection);
 
         // Confirm Special Character
-        confirmSpecialSelection = confirm ("Will this contain special characters?")
+        confirmSpecialSelection = confirm ("Do you want special characters?")
         console.log ("Special " + confirmSpecialSelection);
     };
 
